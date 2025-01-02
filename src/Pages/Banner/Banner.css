@@ -1,0 +1,16 @@
+.carousel-image {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.carousel .thumbs-wrapper .thumb {
+  height: 50px;
+  object-fit: cover;
+  width: auto;
+}
+
+.carousel .thumbs-wrapper {
+  display: flex;
+  justify-content: center;
+}
