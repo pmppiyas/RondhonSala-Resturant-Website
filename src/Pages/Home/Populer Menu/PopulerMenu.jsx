@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import SectionTitle from "../../../Components/Section Title/SectionTitle";
-import MenuItem from "../../MenuCard/MenuItem";
+import MenuItem from "../MenuCard/MenuItem";
 
 export default function PopulerMenu() {
   const [menu, setMenu] = useState([]);
@@ -12,9 +12,8 @@ export default function PopulerMenu() {
         setMenu(populerItems);
       });
   }, []);
-  console.log(menu);
   return (
-    <div className="bg-gray-100 py-12">
+    <div className="bg-gray-100 py-12 px-2">
       <SectionTitle
         heading={"From Our Menu"}
         subheading={"Populer Items"}
