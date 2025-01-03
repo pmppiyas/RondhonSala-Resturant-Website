@@ -5,7 +5,7 @@ import SectionTitle from "../../../Components/Section Title/SectionTitle";
 export default function FeaturedItem() {
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center py-6 relative"
+      className="min-h-screen flex flex-col items-center justify-center py-6 relative bg-fixed"
       style={{
         backgroundImage: `url(${featureIamge})`,
         backgroundSize: "cover",
@@ -47,7 +47,7 @@ export default function FeaturedItem() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
               nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
             </p>
-            <button className="btn btn-primary hover:bg-secondary transition-all duration-300">
+            <button className="btn btn-outline border-0 border-b-4">
               Order Now
             </button>
           </div>

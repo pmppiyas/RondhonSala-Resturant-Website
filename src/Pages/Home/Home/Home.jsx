@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
 import PopulerMenu from "../Populer Menu/PopulerMenu";
 import FeaturedItem from "../Highlight/FeaturedItem";
+import Testimonial from "../Testimonial/Testimonial";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Category></Category>
       <PopulerMenu></PopulerMenu>
       <FeaturedItem></FeaturedItem>
+      <Testimonial></Testimonial>
     </div>
   );
 }
