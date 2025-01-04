@@ -7,7 +7,7 @@ export default function MenuItem({ item }) {
       <div className="col-span-2">
         <img
           style={{ borderRadius: "0 200px 200px 200px" }}
-          className=""
+          className="w-full"
           src={image}
           alt={name}
         />

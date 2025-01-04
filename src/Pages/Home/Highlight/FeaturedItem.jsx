@@ -5,7 +5,7 @@ import SectionTitle from "../../../Components/Section Title/SectionTitle";
 export default function FeaturedItem() {
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center py-6 relative bg-fixed"
+      className="min-h-screen flex flex-col items-center justify-center py-6 relative bg-fixed bg-opacity-50 bg-cover bg-center"
       style={{
         backgroundImage: `url(${featureIamge})`,
         backgroundSize: "cover",
@@ -15,7 +15,7 @@ export default function FeaturedItem() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-gray-500 bg-opacity-50"></div>
 
-      <div className="z-10">
+      <div className=" relative max-w-screen-lg mx-auto px-4">
         <div className="text-white">
           {/* Section Title */}
           <SectionTitle

@@ -13,7 +13,7 @@ export default function PopulerMenu() {
       });
   }, []);
   return (
-    <div className="bg-gray-100 py-12 px-2">
+    <div className="bg-gray-100 py-12 px-2 flex flex-col items-center">
       <SectionTitle
         heading={"From Our Menu"}
         subheading={"Populer Items"}
@@ -23,6 +23,9 @@ export default function PopulerMenu() {
           <MenuItem key={item._id} item={item}></MenuItem>
         ))}
       </div>
+      <button className="btn btn-outline border-0 border-b-4 mt-8 mx-auto">
+        View Full Menu
+      </button>
     </div>
   );
 }
