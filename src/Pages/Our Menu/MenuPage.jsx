@@ -29,7 +29,8 @@ export default function MenuPage() {
       <TodayOffer></TodayOffer>
       <Cover
         image={dessertImage}
-        title={"DESSERTS"}
+        title={"dessert"}
+        buttonName={"Order Desserts"}
         textsize={4}
         subtitle={
           "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -38,7 +39,8 @@ export default function MenuPage() {
       <DessertsItem></DessertsItem>
       <Cover
         image={pizzaImage}
-        title={"PIZZA"}
+        title={"pizza"}
+        buttonName={"Order Pizza"}
         textsize={4}
         subtitle={
           "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -47,7 +49,8 @@ export default function MenuPage() {
       <PizzaItem></PizzaItem>
       <Cover
         image={saladImage}
-        title={"Salads"}
+        title={"salad"}
+        buttonName={"Order Salad"}
         textsize={4}
         subtitle={
           "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
@@ -56,7 +59,8 @@ export default function MenuPage() {
       <SaladsItem></SaladsItem>
       <Cover
         image={soupImage}
-        title={"SOUPS"}
+        title={"soup"}
+        buttonName={"Order Soup"}
         textsize={4}
         subtitle={
           "Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."

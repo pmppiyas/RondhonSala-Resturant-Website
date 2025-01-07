@@ -11,7 +11,7 @@ export default function Navbar() {
         <NavLink to="our-menu">Our Menu</NavLink>
       </li>
       <li>
-        <a>Item 3</a>
+        <NavLink to="order">Order</NavLink>
       </li>
     </>
   );

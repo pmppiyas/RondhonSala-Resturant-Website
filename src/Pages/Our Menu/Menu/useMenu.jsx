@@ -5,10 +5,11 @@ export default function useMenu() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("menu.json")
+    fetch("/menu.json")
       .then((res) => res.json())
       .then((data) => {
         setMenu(data);
+
         setLoading(false);
       });
   }, []);
