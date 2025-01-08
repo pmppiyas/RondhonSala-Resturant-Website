@@ -1,12 +1,10 @@
 import React from "react";
 import useMenu from "../../Menu/useMenu";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function TabTable({ category }) {
   const [menu, loading] = useMenu();
-  const { categorys } = useParams();
-  console.log(categorys);
   if (loading) return <p>Loading...</p>;
 
   const filteredMenu = menu.filter((item) => item.category === category);
